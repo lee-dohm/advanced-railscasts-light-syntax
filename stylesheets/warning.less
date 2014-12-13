@@ -1,0 +1,12 @@
+@import "syntax-variables";
+
+// Creates pulsing yellow text for warnings
+@-webkit-keyframes pulsate {
+  from { color: @syntax-background-color; }
+  to { color: yellow; }
+}
+
+.attention-anim {
+  opacity: 1.0;
+  -webkit-animation: pulsate 1s infinite alternate;
+}
