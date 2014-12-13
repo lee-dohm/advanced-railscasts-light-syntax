@@ -267,8 +267,7 @@
 
 .markup {
   &.bold {
-    color: @orange;
-    font-style: bold;
+    font-weight: bold;
   }
 
   &.changed {
@@ -280,8 +279,11 @@
   }
 
   &.italic {
-    color: @purple;
     font-style: italic;
+  }
+
+  &.heading {
+    color: @base0F;
   }
 
   &.heading .punctuation.definition.heading {
@@ -300,8 +302,8 @@
     color: @orange;
   }
 
-  &.raw.inline {
-    color: @green;
+  &.raw {
+    color: @base0C;
   }
 }
 
@@ -311,12 +313,6 @@
 
     .entity {
       color: @base0D;
-    }
-  }
-
-  .markup {
-    &.heading {
-      color: @base0F;
     }
   }
 }
