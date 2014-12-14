@@ -3,13 +3,13 @@
 @import "warning";
 
 :host {
-  background-color: @base00;
-  color: @base05;
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
 }
 
 :host {
-  background-color: @base00;
-  color: @base05;
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
 
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
@@ -42,7 +42,7 @@
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @light-gray;
+    color: @syntax-text-color;
   }
 
   .invisible {
@@ -209,6 +209,10 @@
       color: @blue;
     }
   }
+
+  &.type {
+    color: @type-color;
+  }
 }
 
 .entity {
@@ -271,11 +275,11 @@
   }
 
   &.changed {
-    color: @purple;
+    color: @syntax-color-modified;
   }
 
   &.deleted {
-    color: @red;
+    color: @syntax-color-removed;
   }
 
   &.italic {
@@ -291,7 +295,7 @@
   }
 
   &.inserted {
-    color: @green;
+    color: @syntax-color-added;
   }
 
   &.list {
