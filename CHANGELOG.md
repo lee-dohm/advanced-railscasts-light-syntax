@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.1.2** &mdash; *Released: 17 December 2014*
+
+* Removed the last of the non-Base16 colors
+
 ## **v0.1.1** &mdash; *Released: 14 December 2014*
 
 * Removed pesky underlines
