@@ -19,7 +19,7 @@ You have been warned. :wink:
 
 ## Copyright
 
-Copyright &copy; 2014 by [Lee Dohm](http://www.lee-dohm.com). See [LICENSE](https://github.com/lee-dohm/advanced-railscasts-syntax/blob/master/LICENSE.md) for details.
+Copyright &copy; 2014-2015 by [Lee Dohm](http://www.lee-dohm.com) and [Lifted Studios](http://www.liftedstudios.com). See [LICENSE](https://github.com/lee-dohm/advanced-railscasts-syntax/blob/master/LICENSE.md) for details.
 
 [advanced]: https://discuss.atom.io/t/advanced-syntax-highlighting/13742
 [base16]: https://github.com/chriskempson/base16
