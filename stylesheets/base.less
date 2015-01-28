@@ -58,13 +58,15 @@
   }
 }
 
-:host .search-results .marker .region {
-  background-color: transparent;
-  border: 1px solid @syntax-result-marker-color;
-}
+atom-text-editor::shadow {
+  .find-result .region {
+    background-color: transparent;
+    border: 1px solid @syntax-result-marker-color;
+  }
 
-:host .search-results .marker.current-result .region {
-  border: 1px solid @syntax-result-marker-color-selected;
+  .current-result .region {
+    border: 1px solid @syntax-result-marker-color-selected;
+  }
 }
 
 .comment {
