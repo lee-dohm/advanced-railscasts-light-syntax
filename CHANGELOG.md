@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## **v0.1.3** &mdash; *Released: 28 January 2015*
+## **v0.1.5** &mdash; *Released: 28 January 2015*
 
 * Now highlights type declarations in Ruby YARD doc comments
 
