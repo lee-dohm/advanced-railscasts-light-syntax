@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.1.6** &mdash; *Released: 7 February 2015*
+
+* Improved Ruby inheritance coloring
+
 ## **v0.1.5** &mdash; *Released: 28 January 2015*
 
 * Now highlights type declarations in Ruby YARD doc comments
