@@ -73,40 +73,6 @@ atom-text-editor::shadow {
   color: @comment-color;
 }
 
-.entity {
-  &.name.type {
-    color: @name-color;
-  }
-
-  &.other.inherited-class {
-    color: @name-color;
-  }
-}
-
-.keyword {
-  color: @keyword-color;
-
-  &.control {
-    color: @keyword-color;
-  }
-
-  &.operator {
-    color: @operator-color;
-  }
-
-  &.other.special-method {
-    color: @keyword-color;
-  }
-
-  &.other.unit {
-    color: @base0A;
-  }
-}
-
-.storage {
-  color: @base0E;
-}
-
 .constant {
   color: @constant-decl-color;
 
@@ -127,15 +93,37 @@ atom-text-editor::shadow {
   }
 }
 
-.variable {
-  color: @variable-color;
-
-  &.interpolation {
-    color: @base09;
+.entity {
+  &.name.class, &.name.type.class {
+    color: @type-color;
   }
 
-  &.parameter.function {
-    color: @syntax-text-color;
+  &.name.function {
+    color: @function-color;
+  }
+
+  &.name.section {
+    color: @base0D;
+  }
+
+  &.name.tag {
+    color: @base08;
+  }
+
+  &.name.type {
+    color: @name-color;
+  }
+
+  &.other.attribute-name {
+    color: @base09;
+
+    &.id {
+      color: @base0D;
+    }
+  }
+
+  &.other.inherited-class {
+    color: @type-color;
   }
 }
 
@@ -147,102 +135,23 @@ atom-text-editor::shadow {
   .error-animation;
 }
 
-.string {
-  color: @literal-color;
+.keyword {
+  color: @keyword-color;
 
-  &.regexp {
-    color: @literal-color;
-
-    .source.ruby.embedded {
-      color: @base0A;
-    }
+  &.control {
+    color: @keyword-color;
   }
 
-  &.other.link {
-    color: @base08;
-  }
-}
-
-.punctuation {
-  &.definition {
-    &.comment {
-      color: @comment-color;
-    }
-
-    &.string,
-    &.variable,
-    &.parameters,
-    &.array {
-      color: @syntax-text-color;
-    }
-
-    &.heading,
-    &.identity {
-      color: @base0D;
-    }
-
-    &.string {
-      color: @literal-color;
-    }
-
-    &.bold {
-      color: @base0A;
-      font-weight: bold;
-    }
-
-    &.italic {
-      color: @base0E;
-      font-style: italic;
-    }
+  &.operator {
+    color: @operator-color;
   }
 
-  &.section.embedded {
-    color: @base0F;
+  &.other.special-method {
+    color: @keyword-color;
   }
 
-}
-
-.support {
-  &.class {
+  &.other.unit {
     color: @base0A;
-  }
-
-  &.function  {
-    color: @function-color;
-
-    &.any-method {
-      color: @base0D;
-    }
-  }
-
-  &.type {
-    color: @type-color;
-  }
-}
-
-.entity {
-  &.name.function {
-    color: @function-color;
-  }
-
-  &.name.class, &.name.type.class {
-    color: @type-color;
-  }
-
-  &.name.section {
-    color: @base0D;
-  }
-
-  &.name.tag {
-    color: @base08;
-  }
-
-  &.other.attribute-name {
-    color: @base09;
-
-    &.id {
-      color: @base0D;
-    }
   }
 }
 
@@ -267,10 +176,6 @@ atom-text-editor::shadow {
     background-color: @base04;
     color: @syntax-text-color;
   }
-}
-
-.none {
-  color: @syntax-text-color;
 }
 
 .markup {
@@ -312,6 +217,98 @@ atom-text-editor::shadow {
 
   &.raw {
     color: @base0C;
+  }
+}
+
+.none {
+  color: @syntax-text-color;
+}
+
+.punctuation {
+  &.definition {
+    &.comment {
+      color: @comment-color;
+    }
+
+    &.string,
+    &.variable,
+    &.parameters,
+    &.array {
+      color: @syntax-text-color;
+    }
+
+    &.heading,
+    &.identity {
+      color: @base0D;
+    }
+
+    &.string {
+      color: @literal-color;
+    }
+
+    &.bold {
+      color: @base0A;
+      font-weight: bold;
+    }
+
+    &.italic {
+      color: @base0E;
+      font-style: italic;
+    }
+  }
+
+  &.section.embedded {
+    color: @base0F;
+  }
+}
+
+.storage {
+  color: @base0E;
+}
+
+.string {
+  color: @literal-color;
+
+  &.regexp {
+    color: @literal-color;
+
+    .source.ruby.embedded {
+      color: @base0A;
+    }
+  }
+
+  &.other.link {
+    color: @base08;
+  }
+}
+
+.variable {
+  color: @variable-color;
+
+  &.interpolation {
+    color: @base09;
+  }
+
+  &.parameter.function {
+    color: @syntax-text-color;
+  }
+}
+
+.support {
+  &.class {
+    color: @base0A;
+  }
+
+  &.function  {
+    color: @function-color;
+
+    &.any-method {
+      color: @base0D;
+    }
+  }
+
+  &.type {
+    color: @type-color;
   }
 }
 
