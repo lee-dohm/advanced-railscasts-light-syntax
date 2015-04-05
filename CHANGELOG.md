@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.1.9** &mdash; *Released: 5 April 2015*
+
+* Fix deprecation warning
+
 ## **v0.1.7** &mdash; *Released: 7 February 2015*
 
 * Improved Ruby inheritance coloring
