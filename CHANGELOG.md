@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.1.10** &mdash; *Released: 5 April 2015*
+
+* Fix broken imports
+
 ## **v0.1.9** &mdash; *Released: 5 April 2015*
 
 * Fix deprecation warning
