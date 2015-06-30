@@ -1,15 +1,15 @@
 {
-  "name": "advanced-railscasts-syntax",
+  "name": "advanced-railscasts-light-syntax",
   "theme": "syntax",
-  "version": "0.1.10",
-  "description": "A syntax theme with advanced highlighting techniques that are only available to Atom.",
-  "repository": "https://github.com/lee-dohm/advanced-railscasts-syntax",
+  "version": "0.0.0",
+  "description": "A light syntax theme with advanced highlighting techniques that are only available to Atom.",
+  "repository": "https://github.com/lee-dohm/advanced-railscasts-light-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "keywords": [
-    "dark",
+    "light",
     "high-contrast"
   ]
 }
